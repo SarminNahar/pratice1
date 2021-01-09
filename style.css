@@ -1,0 +1,116 @@
+
+        h1:hover{
+            color: indianred;
+            font-size: 60px;
+            background-color: teal;
+        }
+        input:focus{
+            font-weight: 700;
+            color:yellowgreen;
+        }
+        h2:nth-child(2n+1){
+            background-color: violet;
+        }
+        a{
+            text-decoration: none;
+            color: tomato;
+        }
+        a:visited{
+            color: teal;
+        }
+        h2::before{
+            content: "❤️";
+        }
+        h2::after{
+            content: "😮‍💨";
+        }
+        .block{
+            background-color: cornflowerblue;
+            width:600px;
+            height: 500px;
+            padding-top: 200px;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+        }
+        #first-block{
+            background-color: crimson;
+            position: relative;
+            left:100px;
+            bottom:100px;
+        }        
+        #second-block{
+            background-color:darkolivegreen;
+            position: relative;
+            left: 100px;
+        }
+        #third-block{
+            background-color: goldenrod;
+            position: absolute;
+            left:200px;
+        }
+        #fourth-block{
+            background-color: hotpink;
+            position:relative;
+            left:200px;
+            bottom:200px;
+        }
+        #fifth-block{
+            background-color: lawngreen;
+            position: absolute ;
+            left: 100px;
+        }
+        .less-priority{
+            color: lawngreen;
+        }
+
+        #first-priority{
+            color: lightcoral;
+        }
+        li{
+            color: maroon !important;
+        }
+        nav li{
+            list-style: none;
+            padding: 20px;
+        }
+        nav{
+            height: 70px;
+            background-color: darkgray;
+            line-height: 30px;
+            font-size: 25px;
+        }
+        nav li:hover{
+            background-color:darkgray;
+        }
+        nav>ul>li{
+            float: left;
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            padding: 0;
+        }
+        nav>ul>li:hover>ul{
+            display: block;
+        }
+        nav a{
+            text-decoration: none;
+            display: block;
+        }
+        table{
+            border-collapse: collapse;
+            bor
+        }
+        td,th{
+            border: 2px solid black;
+            padding:10px;
+        }
+        caption{
+            font-size: 20px;
+            font-weight: 700;
+           font-style: italic;
+        }
+
+     
